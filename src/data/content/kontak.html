@@ -1,0 +1,40 @@
+<div class="container">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="./">Beranda</a><span class="sep">›</span>Kontak</nav>
+  <div class="page-head">
+    <h1>Kontak Redaksi</h1>
+    <p class="lead">Halaman ini adalah bagian dari situs contoh untuk presentasi konsep. Alamat dan formulir di bawah ini adalah contoh tampilan (placeholder) untuk menunjukkan bagaimana kanal koreksi data akan bekerja pada situs produksi.</p>
+  </div>
+
+  <div class="grid cols-2" style="align-items:start">
+    <div class="article-body" style="max-width:none">
+      <h2>Untuk apa kanal ini?</h2>
+      <p>Data transportasi berubah lebih cepat daripada siklus verifikasi berkala mana pun: tarif disesuaikan, pool pindah, trayek ditambah. Pada situs produksi, kanal kontak redaksi menerima tiga jenis laporan:</p>
+      <ul class="checklist">
+        <li><b>Koreksi tarif atau jadwal</b> — sertakan foto tiket, papan loket, atau tautan sumber resmi agar koreksi dapat diverifikasi.</li>
+        <li><b>Data operator yang belum tercatat</b> — terutama operator kecil yang hanya terdokumentasi luring; nama, alamat loket, dan trayek sudah sangat membantu.</li>
+        <li><b>Laporan calo dan pungli</b> — untuk diteruskan sebagai konteks pada halaman titik berangkat terkait, bukan sebagai tuduhan terhadap perorangan.</li>
+      </ul>
+      <p>Alamat surel contoh: <b>redaksi@contoh-bussumut.invalid</b> (alamat contoh — bukan kotak surat aktif). Redaksi tidak melayani pemesanan tiket dan tidak dapat mengubah jadwal operator; untuk itu, hubungi langsung loket operator yang bersangkutan melalui nomor pada halaman operatornya.</p>
+      <div class="notice green"><b>Catatan transparansi:</b> pada versi contoh ini, tidak ada pesan yang benar-benar terkirim atau tersimpan. Semua elemen kontak bersifat demonstrasi.</div>
+    </div>
+
+    <div class="card form-demo">
+      <h3 style="margin-top:0">Formulir Koreksi Data <span class="tag">Contoh — Non-Fungsional</span></h3>
+      <p class="muted">Formulir ini hanya contoh tampilan. Menekan tombol kirim tidak mengirim apa pun.</p>
+      <form action="#" onsubmit="return false">
+        <div class="field"><label for="nama">Nama</label><input type="text" id="nama" placeholder="Nama Anda (contoh)"></div>
+        <div class="field"><label for="email">Surel</label><input type="email" id="email" placeholder="nama@contoh.com"></div>
+        <div class="field"><label for="topik">Topik</label>
+          <select id="topik">
+            <option>Koreksi tarif</option>
+            <option>Koreksi jadwal/titik naik</option>
+            <option>Data operator baru</option>
+            <option>Lainnya</option>
+          </select>
+        </div>
+        <div class="field"><label for="pesan">Pesan &amp; bukti</label><textarea id="pesan" rows="5" placeholder="Tuliskan koreksi beserta sumbernya (foto tiket/tautan)…"></textarea></div>
+        <button type="submit" class="btn" style="width:100%">Kirim (Contoh — Tidak Berfungsi)</button>
+      </form>
+    </div>
+  </div>
+</div>

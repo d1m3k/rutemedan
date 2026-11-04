@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RouteMapPanel from '../components/RouteMapPanel.astro';
+import RouteCard from '../components/RouteCard.astro';
+import FareWidget from '../components/FareWidget.astro';
+import FaqList from '../components/FaqList.astro';
+import pages from '../data/pages.json';
+import routeCards from '../data/routeCards.json';
+import faq from '../data/faq.json';
+import heroHtml from '../data/content/index-hero.html?raw';
+import partA from '../data/content/index-a.html?raw';
+import partB from '../data/content/index-b.html?raw';
+import partC from '../data/content/index-c.html?raw';
+import partD from '../data/content/index-d.html?raw';
+
+const meta = pages.find((p) => p.slug === 'index')!;
+---
+<Layout title={meta.title} description={meta.desc} slug="index">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <Fragment set:html={heroHtml} />
+      </div>
+      <RouteMapPanel />
+    </div>
+  </section>
+
+  <Fragment set:html={partA} />
+  <div class="grid cols-3">
+    {routeCards.map((c) => (
+      <RouteCard href={c.href} search={c.search} tag={c.tag} tagClass={c.tagClass} title={c.title} desc={c.desc} facts={c.facts} />
+    ))}
+  </div>
+  <div class="no-result" id="hasil-kosong">Tidak ada rute yang cocok dengan pencarian itu. Coba kata kunci lain — misalnya nama kota tujuan atau operator.</div>
+  </div>{/* tutup .container seksi #daftar-rute */}
+  <Fragment set:html={partB} />
+
+  <FareWidget />
+
+  <Fragment set:html={partC} />
+
+  <FaqList eyebrow={faq.eyebrow} h2={faq.h2} intro={faq.intro} items={faq.items} />
+
+  <Fragment set:html={partD} />
+</Layout>

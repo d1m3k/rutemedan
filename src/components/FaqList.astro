@@ -1,0 +1,22 @@
+---
+interface Item { q: string; a: string }
+interface Props { eyebrow: string; h2: string; intro?: string; items: Item[] }
+const { eyebrow, h2, intro, items } = Astro.props;
+---
+<section class="block alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{eyebrow}</span>
+      <h2>{h2}</h2>
+      {intro && <p>{intro}</p>}
+    </div>
+    <div class="faq">
+      {items.map((it) => (
+        <details>
+          <summary>{it.q}</summary>
+          <Fragment set:html={it.a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>

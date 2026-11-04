@@ -1,0 +1,62 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const jelajahi = [
+  { href: '', label: 'Beranda' },
+  { href: 'rute', label: 'Semua Rute' },
+  { href: 'operator', label: 'Direktori Operator' },
+  { href: 'panduan', label: 'Panduan Penumpang' },
+  { href: 'wisata', label: 'Wisata Sumatera' },
+  { href: 'tentang', label: 'Tentang BusSumut' },
+  { href: 'kontak', label: 'Kontak Redaksi' },
+];
+const populer = [
+  { href: 'rute-medan-siantar', label: 'Medan → Pematang Siantar' },
+  { href: 'rute-medan-parapat', label: 'Medan → Parapat (Danau Toba)' },
+  { href: 'rute-medan-berastagi', label: 'Medan → Berastagi' },
+  { href: 'rute-medan-banda-aceh', label: 'Medan → Banda Aceh' },
+  { href: 'rute-medan-pekanbaru', label: 'Medan → Pekanbaru' },
+  { href: 'rute-medan-padang', label: 'Medan → Padang' },
+  { href: 'pool-sm-raja', label: 'Pool Jl. SM Raja' },
+  { href: 'terminal-amplas', label: 'Terminal Amplas' },
+  { href: 'terminal-pinang-baris', label: 'Terminal Pinang Baris' },
+  { href: 'titik-simpang-pos', label: 'Simpang Pos' },
+];
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href={base} style="margin-bottom:14px">
+          <svg class="mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <rect width="48" height="48" rx="11" fill="#1B1838"/>
+            <path d="M11 34 L37 13" stroke="#25C3E8" stroke-width="3" stroke-dasharray="5 4.5" stroke-linecap="round"/>
+            <circle cx="11" cy="34" r="4.6" fill="#25C3E8"/>
+            <circle cx="37" cy="13" r="4.6" fill="#fff"/>
+          </svg>
+          <span>
+            <span class="brand-name">Bus<em>Sumut</em></span>
+            <span class="brand-sub">Panduan Bus Sumatera Utara</span>
+          </span>
+        </a>
+        <p>Panduan rute bus dan travel antarkota dari hub Medan — rute, jadwal, tarif bertahun sumber, operator, dan titik berangkat, disusun dari riset publik dan sumber resmi.</p>
+        <span class="stamp">Data riset publik · diverifikasi 4 Nov 2026</span>
+      </div>
+      <div>
+        <h4>Jelajahi</h4>
+        <ul>
+          {jelajahi.map((l) => <li><a href={base + l.href}>{l.label}</a></li>)}
+        </ul>
+      </div>
+      <div>
+        <h4>Rute &amp; Titik Berangkat Populer</h4>
+        <ul>
+          {populer.map((l) => <li><a href={base + l.href}>{l.label}</a></li>)}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p><b>BusSumut</b> adalah situs contoh untuk presentasi konsep — bukan situs resmi operator mana pun dan tidak menjual tiket.</p>
+      <p>Data dari riset publik November 2026 (situs resmi operator, Kemenhub/BPTD, SPIONAM, platform pemesanan, dan media). Tarif &amp; jadwal dapat berubah sewaktu-waktu — selalu konfirmasi ke loket sebelum berangkat.</p>
+    </div>
+  </div>
+</footer>

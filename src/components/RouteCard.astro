@@ -1,0 +1,29 @@
+---
+interface Fact { k: string; v: string }
+interface Props {
+  href: string;
+  search: string;
+  tag: string;
+  tagClass?: string;
+  title: string;
+  desc: string;
+  facts: Fact[];
+}
+const { href, search, tag, tagClass = 'tag', title, desc, facts } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<a class="card route-card" data-route-card data-search={search} href={base + href}>
+  <div class="rc-top">
+    <h3>{title}</h3>
+    <span class={tagClass}>{tag}</span>
+  </div>
+  <p class="muted">{desc}</p>
+  <div class="rc-facts">
+    {facts.map((f) => (
+      <div class="rc-fact">
+        <span class="k">{f.k}</span>
+        <span class="v">{f.v}</span>
+      </div>
+    ))}
+  </div>
+</a>

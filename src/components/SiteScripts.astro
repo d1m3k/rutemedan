@@ -1,0 +1,64 @@
+---
+import { ROUTES, TITIK } from '../data/routes';
+---
+<script define:vars={{ ROUTES, TITIK }}>
+  /* ---------- Widget cek kisaran tarif ---------- */
+  var btn = document.getElementById('cek-tarif-btn');
+  if (btn) {
+    btn.addEventListener('click', function () {
+      var dari = document.getElementById('dari').value;
+      var tujuan = document.getElementById('tujuan').value;
+      var r = ROUTES[tujuan];
+      var box = document.getElementById('hasil-tarif');
+      if (!r || !box) return;
+      document.getElementById('ht-rute').textContent = 'Medan → ' + r.label;
+      document.getElementById('ht-dari').textContent =
+        'Berangkat dari: ' + (TITIK[dari] || 'Medan') + ' · Titik naik utama: ' + r.titik + '.';
+      document.getElementById('ht-kisaran').textContent = r.kisaran;
+      document.getElementById('ht-kisaran-label').textContent = r.kisaranLabel;
+      document.getElementById('ht-durasi').textContent = r.durasi;
+      document.getElementById('ht-jarak').textContent = r.jarak;
+      document.getElementById('ht-operator').textContent = r.operators.join(', ');
+      var note = document.getElementById('ht-bandara');
+      if (dari === 'kualanamu' && r.bandara) {
+        note.textContent = r.bandara;
+        note.style.display = 'block';
+      } else {
+        note.style.display = 'none';
+      }
+      document.getElementById('ht-link').setAttribute('href', r.href);
+      box.classList.add('show');
+      box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+
+  /* ---------- Filter pencarian rute ---------- */
+  var input = document.getElementById('cari-rute');
+  if (input) {
+    var cards = Array.prototype.slice.call(document.querySelectorAll('[data-route-card]'));
+    var empty = document.getElementById('hasil-kosong');
+    var apply = function () {
+      var q = input.value.trim().toLowerCase();
+      var visible = 0;
+      cards.forEach(function (c) {
+        var hay = (c.getAttribute('data-search') || c.textContent).toLowerCase();
+        var show = !q || hay.indexOf(q) !== -1;
+        c.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      if (empty) empty.style.display = visible === 0 ? 'block' : 'none';
+    };
+    input.addEventListener('input', apply);
+    var form = document.getElementById('form-cari-rute');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        apply();
+        var target = document.getElementById('daftar-rute');
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+    var m = /[?&]q=([^&]+)/.exec(window.location.search);
+    if (m) { input.value = decodeURIComponent(m[1].replace(/\+/g, ' ')); apply(); }
+  }
+</script>

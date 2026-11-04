@@ -1,0 +1,63 @@
+---
+interface Props { slug?: string }
+const { slug = 'index' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const NAV = [
+  { href: './', label: 'Beranda', match: ['index'] },
+  { href: 'rute', label: 'Semua Rute', match: ['rute', 'rute-medan-siantar', 'rute-medan-parapat', 'rute-medan-berastagi', 'rute-medan-banda-aceh', 'rute-medan-pekanbaru', 'rute-medan-padang'] },
+  { href: 'operator', label: 'Operator', match: ['operator', 'operator-paradep', 'operator-kupj', 'operator-als', 'operator-rapi', 'operator-intra'] },
+  { href: 'pool-sm-raja', label: 'Titik Berangkat', match: ['pool-sm-raja', 'terminal-amplas', 'terminal-pinang-baris', 'titik-simpang-pos'] },
+  { href: 'panduan', label: 'Panduan', match: ['panduan', 'panduan-naik-bus-dari-medan', 'panduan-titip-paket-bus', 'panduan-memilih-kelas-bus'] },
+  { href: 'wisata', label: 'Wisata', match: ['wisata'] },
+  { href: 'tentang', label: 'Tentang', match: ['tentang', 'kontak'] },
+];
+const isActive = (m: string[]) =>
+  m.includes(slug) || (slug.startsWith('wisata-') && m.includes('wisata'));
+---
+<header class="site-header">
+  <div class="utility-strip">
+    <div class="container">
+      <span><b>Hub Medan</b> · Sumatera Utara — gerbang darat se-Sumatera</span>
+      <span class="u-right">6 rute tulang punggung · 30+ operator terdata · tarif bertahun sumber</span>
+    </div>
+  </div>
+  <div class="main-bar">
+    <div class="container">
+      <a class="brand" href={base} aria-label="BusSumut — Beranda">
+        <svg class="mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <rect width="48" height="48" rx="11" fill="#12102A"/>
+          <path d="M11 34 L37 13" stroke="#25C3E8" stroke-width="3" stroke-dasharray="5 4.5" stroke-linecap="round"/>
+          <circle cx="11" cy="34" r="4.6" fill="#25C3E8"/>
+          <circle cx="37" cy="13" r="4.6" fill="#fff"/>
+        </svg>
+        <span>
+          <span class="brand-name">Bus<em>Sumut</em></span>
+          <span class="brand-sub">Panduan Bus Sumatera Utara</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <ul>
+          {NAV.map((n) => (
+            <li>
+              <a href={n.href === './' ? base : base + n.href} class={isActive(n.match) ? 'active' : undefined}>
+                {n.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <a class="btn cari-btn" href={base + '#daftar-rute'}>Cari Rute</a>
+    </div>
+  </div>
+</header>
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+</script>

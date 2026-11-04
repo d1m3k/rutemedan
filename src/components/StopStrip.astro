@@ -1,0 +1,13 @@
+---
+interface Stop { name: string; note?: string }
+interface Props { stops: Stop[] }
+const { stops } = Astro.props;
+---
+<ol class="stop-strip">
+  {stops.map((s) => (
+    <li>
+      <b>{s.name}</b>
+      {s.note}
+    </li>
+  ))}
+</ol>

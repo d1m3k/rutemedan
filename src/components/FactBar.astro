@@ -1,0 +1,13 @@
+---
+interface Fact { k: string; v: string }
+interface Props { facts: Fact[] }
+const { facts } = Astro.props;
+---
+<div class="fact-bar" role="list" aria-label="Fakta kunci">
+  {facts.map((f) => (
+    <div class="fact" role="listitem">
+      <span class="fk">{f.k}</span>
+      <span class="fv">{f.v}</span>
+    </div>
+  ))}
+</div>

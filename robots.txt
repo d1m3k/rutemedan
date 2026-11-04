@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://d1m3k.github.io/rutemedan/sitemap.xml

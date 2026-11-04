@@ -1,0 +1,192 @@
+[
+ {
+  "slug": "index",
+  "title": "BusSumut — Panduan Bus & Travel Sumatera Utara dari Medan",
+  "desc": "Panduan lengkap naik bus dan travel dari Medan: rute, jadwal, kisaran tarif bertahun sumber, operator, dan titik berangkat — Amplas, SM Raja, Pinang Baris, dan Simpang Pos."
+ },
+ {
+  "slug": "kontak",
+  "title": "Kontak Redaksi BusSumut (Contoh) — BusSumut",
+  "desc": "Halaman kontak contoh BusSumut: kanal koreksi data rute dan tarif untuk presentasi konsep. Formulir pada halaman ini adalah contoh tampilan dan tidak berfungsi."
+ },
+ {
+  "slug": "operator-als",
+  "title": "ALS — PT Antar Lintas Sumatera, Sang “Raja Paket” — BusSumut",
+  "desc": "Profil ALS: didirikan 1966 di Kotanopan, kantor pusat SM Raja Km 6,5, trayek terjauh Medan–Jember ±2.839 km, kelas sampai Super Executive, aturan titip paket resmi tiketals.com."
+ },
+ {
+  "slug": "operator-intra",
+  "title": "Intra (Indah Transport): Tulang Punggung Koridor Siantar — BusSumut",
+  "desc": "Profil Intra/Indah Transport: berbasis Pematang Siantar sejak 1 Juli 1995, ±80 armada (2019), rute Medan–Siantar–Parapat, via Sentosa ke Jambi/Pekanbaru/Dumai, berangkat dari Terminal Amplas."
+ },
+ {
+  "slug": "operator-kupj",
+  "title": "KUPJ vs KUPJ Tour: Dua Entitas Berbeda di Koridor SM Raja — BusSumut",
+  "desc": "Profil KUPJ (Koperasi Usaha Pinggir Jalan) dan KUPJ Tour (CV Karunia Usaha Pandan Jaya Tour): dua perusahaan berbeda dengan singkatan yang sama — trayek Siantar & Tanjung Balai, tarif Rp50.000 (2024)."
+ },
+ {
+  "slug": "operator-paradep",
+  "title": "Paradep: Travel & Bus Medan–Siantar, Pool SM Raja No. 59 — BusSumut",
+  "desc": "Profil Paradep (PT Paradep): pool Jl. SM Raja No. 59, telepon (061) 735 8635, travel tiap jam 04.00–23.00 ke Siantar/Parapat/Toba, Executive Rp55.000 di redBus, loket di Bandara Kualanamu."
+ },
+ {
+  "slug": "operator-rapi",
+  "title": "RAPI — PT Raja Perdana Inti, Spesialis Lintas Timur — BusSumut",
+  "desc": "Profil RAPI: didirikan 22 Des 1989 di Medan, kantor SM Raja Km 6,8, tarif resmi terpajang (Pekanbaru Rp265.000, Kisaran Rp130.000), produk paket RAPI Kilat, WA resmi operator."
+ },
+ {
+  "slug": "operator",
+  "title": "Direktori Operator Bus Sumatera Utara — BusSumut",
+  "desc": "Direktori operator bus dan travel yang terverifikasi melayani dari Medan: ALS, Paradep, KUPJ, RAPI, Intra, Sempati Star, Putra Pelangi, PMTOH, PMH, Medan Jaya, Bintang Utara, Karya Agung, dan lainnya."
+ },
+ {
+  "slug": "panduan-memilih-kelas-bus",
+  "title": "Memilih Kelas Bus: Ekonomi, Executive, VIP, Sleeper — BusSumut",
+  "desc": "Panduan kelas bus Sumatera: arti Ekonomi, AC Toilet, Patas VIP, Executive, Super Executive 2-1, Non Stop, Double Decker First Class; kisaran harga per koridor; dan aturan tarif negara."
+ },
+ {
+  "slug": "panduan-naik-bus-dari-medan",
+  "title": "Cara Naik Bus dari Medan: Langkah demi Langkah — BusSumut",
+  "desc": "Panduan langkah demi langkah naik bus dari Medan: pilih titik naik sesuai arah, tiga cara beli tiket yang aman dari calo, bedakan resmi vs travel gelap, cek SPIONAM, dan periksa barang bawaan."
+ },
+ {
+  "slug": "panduan-titip-paket-bus",
+  "title": "Titip Paket Lewat Bus: Aturan ALS, RAPI Kilat & Praktik Loket — BusSumut",
+  "desc": "Panduan menitip paket lewat bus di Sumatera: aturan resmi ALS dari tiketals.com (terdaftar & berlabel, >10 kg berbayar, hilang diganti 3× ongkir), produk RAPI Kilat, dan pola umum loket."
+ },
+ {
+  "slug": "panduan",
+  "title": "Panduan Penumpang Bus Sumatera Utara — BusSumut",
+  "desc": "Panduan praktis penumpang: cara naik bus dari Medan dan menghindari calo, aturan titip paket lewat bus (ALS, RAPI Kilat), dan cara memilih kelas bus dari ekonomi sampai sleeper."
+ },
+ {
+  "slug": "pool-sm-raja",
+  "title": "Pool Bus Jl. SM Raja Medan: Panduan Titik Naik Terbesar — BusSumut",
+  "desc": "Panduan koridor pool Jl. Sisingamangaraja (SM Raja) Medan: ±42 operator, loket ALS, RAPI, Paradep, KUPJ; aturan resmi vs praktik; tips aman dari calo."
+ },
+ {
+  "slug": "rute-medan-banda-aceh",
+  "title": "Bus Medan ke Banda Aceh: Bus Malam, Tarif & Kelas — BusSumut",
+  "desc": "Panduan bus malam Medan–Banda Aceh: Sempati Star, Putra Pelangi, PMTOH, Kurnia; tarif Rp200–380 ribu per kelas (2025–2026); berangkat 19.00–21.00 dari pool Sunggal/Gagak Hitam; durasi 10–12,5 jam."
+ },
+ {
+  "slug": "rute-medan-berastagi",
+  "title": "Bus Medan ke Berastagi: Tarif Rp20 Ribu, dari Simpang Pos — BusSumut",
+  "desc": "Panduan bus Medan–Berastagi: naik dari Simpang Pos/Jl. Jamin Ginting (bukan terminal), tarif Rp20.000 (2024), berangkat tiap 15–30 menit, operator Sinabung Jaya, Sutra, Borneo, Murni, Almasar."
+ },
+ {
+  "slug": "rute-medan-padang",
+  "title": "Bus Medan ke Padang: 20–28 Jam via Bukittinggi — BusSumut",
+  "desc": "Panduan bus Medan–Padang: ALS, NPM, Putra Pelangi; tarif gabungan Rp190–395 ribu; berangkat pagi–siang; durasi realistis 20–28 jam via Sidempuan–Kotanopan–Bukittinggi; bukan rute full tol."
+ },
+ {
+  "slug": "rute-medan-parapat",
+  "title": "Bus Medan ke Parapat (Danau Toba): Jadwal, Tarif & Operator — BusSumut",
+  "desc": "Panduan bus Medan–Parapat: bus AKDP Rp60–80 ribu (2026), travel Rp130–250 ribu, pola tiap jam dari Terminal Amplas, durasi 3–4 jam, sambungan feri Ajibata–Tomok ke Samosir."
+ },
+ {
+  "slug": "rute-medan-pekanbaru",
+  "title": "Bus Medan ke Pekanbaru: Tarif, Jadwal Dua Gelombang — BusSumut",
+  "desc": "Panduan bus Medan–Pekanbaru via Lintas Timur: ALS, RAPI, Medan Jaya, Bintang Utara, Sempati Star, Putra Pelangi, Intra/Sentosa; tarif gabungan Rp170–350 ribu; berangkat pagi & malam; durasi 11–14 jam."
+ },
+ {
+  "slug": "rute-medan-siantar",
+  "title": "Bus Medan ke Pematang Siantar: Jadwal, Tarif & Operator — BusSumut",
+  "desc": "Panduan tuntas bus Medan–Pematang Siantar: perbandingan Intra, Sejahtera, Paradep, Eldivo, KUPJ; pola jadwal 04.00–23.00; tarif stanplat Rp50–70 ribu; titik naik Amplas & SM Raja; via Tol Sinaksak."
+ },
+ {
+  "slug": "rute",
+  "title": "Semua Rute Bus dari Medan — BusSumut",
+  "desc": "Indeks semua rute bus dan travel dari Medan: tabel ringkas pasangan kota, jarak, durasi, kisaran tarif, dan jumlah operator — dari Siantar sampai Jakarta."
+ },
+ {
+  "slug": "tentang",
+  "title": "Tentang BusSumut: Konsep & Metode Data — BusSumut",
+  "desc": "BusSumut adalah konsep direktori rute bus dari hub Medan: prinsip kepemilikan rute, tiga pola jadwal, verifikasi bertanggal, dan cara kami memperlakukan konflik antar-sumber."
+ },
+ {
+  "slug": "terminal-amplas",
+  "title": "Terminal Amplas Medan: Terminal Tipe A Arah Selatan & Timur — BusSumut",
+  "desc": "Panduan Terminal Terpadu Amplas Medan: dikelola BPTD Kelas II Sumut, direvitalisasi Rp42,8 miliar dan diresmikan 9 Feb 2023, gerbang bus ke Siantar, Parapat, Kisaran, Riau, dan Jawa."
+ },
+ {
+  "slug": "terminal-pinang-baris",
+  "title": "Terminal Pinang Baris Medan: Gerbang Bus Arah Aceh — BusSumut",
+  "desc": "Panduan Terminal Pinang Baris Medan: Terminal Tipe A sejak 1993 di Medan Sunggal, gerbang resmi AKAP ke Aceh dan AKDP Binjai/Langkat, ujung Koridor 1 Bus Listrik Medan."
+ },
+ {
+  "slug": "titik-simpang-pos",
+  "title": "Simpang Pos & Jl. Jamin Ginting: Titik Naik Bus ke Berastagi — BusSumut",
+  "desc": "Panduan titik keberangkatan Simpang Pos/Padang Bulan/Simpang Selayang di Jl. Jamin Ginting Medan: “stasiun” Sinabung Jaya, Sutra, Borneo, Murni, Almasar untuk bus ke Berastagi & Kabanjahe."
+ },
+ {
+  "slug": "wisata-banda-aceh",
+  "title": "Wisata Banda Aceh: Baiturrahman & Museum Tsunami — BusSumut",
+  "desc": "Panduan wisata Banda Aceh dengan bus malam dari Medan Rp200–380 ribu: Masjid Raya Baiturrahman, Museum Tsunami Aceh, dan cara memakai koridor AKAP Aceh untuk berwisata."
+ },
+ {
+  "slug": "wisata-bengkulu",
+  "title": "Wisata Bengkulu: Pantai Panjang & Benteng Marlborough — BusSumut",
+  "desc": "Panduan wisata Kota Bengkulu: Pantai Panjang dengan garis pantai ±7 km dan Benteng Marlborough (1713–1719), benteng Inggris terbesar di Asia Tenggara berbentuk kura-kura."
+ },
+ {
+  "slug": "wisata-berastagi-sibayak",
+  "title": "Berastagi & Gunung Sibayak: Panduan Bus dari Medan — BusSumut",
+  "desc": "Cara ke Berastagi dan Gunung Sibayak dengan bus medium Rp20.000 dari Simpang Pos Medan: kota sejuk Tanah Karo di antara Sibayak dan Sinabung, Pasar Buah, dan pendakian pemula."
+ },
+ {
+  "slug": "wisata-bukit-lawang",
+  "title": "Bukit Lawang: Gerbang Orangutan Gunung Leuser — BusSumut",
+  "desc": "Cara ke Bukit Lawang dengan bus dari Medan via Binjai: desa tepi Sungai Bahorok di gerbang TN Gunung Leuser, pusat rehabilitasi orangutan Bohorok sejak 1973, trekking dan tubing."
+ },
+ {
+  "slug": "wisata-bukittinggi",
+  "title": "Wisata Bukittinggi: Jam Gadang & Ngarai Sianok — BusSumut",
+  "desc": "Cara ke Bukittinggi dengan bus dari Medan lewat koridor Padang Rp190–395 ribu: Jam Gadang, Ngarai Sianok, dan posisi Bukittinggi sebagai singgahan wajib Lintas Barat Sumatera."
+ },
+ {
+  "slug": "wisata-candi-muaro-jambi",
+  "title": "Wisata Candi Muaro Jambi: Kompleks Sriwijaya Terluas — BusSumut",
+  "desc": "Panduan ke Kawasan Candi Muaro Jambi: kompleks percandian Hindu-Buddha terluas di Asia Tenggara (3.981 ha) di tepi Batang Hari, akses bus Medan–Jambi RAPI Rp350–400 ribu."
+ },
+ {
+  "slug": "wisata-danau-maninjau",
+  "title": "Wisata Danau Maninjau & Kelok 44, Agam — BusSumut",
+  "desc": "Panduan ke Danau Maninjau: danau kaldera 99,5 km² di Kabupaten Agam, jalan Kelok 44 yang legendaris, Puncak Lawang, dan akses bus dari Bukittinggi dan Padang."
+ },
+ {
+  "slug": "wisata-danau-toba-samosir",
+  "title": "Danau Toba & Pulau Samosir: Panduan Bus dari Medan — BusSumut",
+  "desc": "Cara ke Danau Toba dan Pulau Samosir dengan bus: Medan–Parapat Rp60–80 ribu, feri Ajibata–Tomok, kapal ke Tuk Tuk, dan bus DAMRI dari Bandara Silangit."
+ },
+ {
+  "slug": "wisata-lembah-harau",
+  "title": "Wisata Lembah Harau: Tebing Raksasa Lima Puluh Kota — BusSumut",
+  "desc": "Panduan ke Lembah Harau, Payakumbuh: tebing batu pasir 100–500 m, air terjun Sarasah Bunta dan Sarasah Murai, cagar alam yang dijuluki Yosemite-nya Indonesia, dan akses busnya."
+ },
+ {
+  "slug": "wisata-padang",
+  "title": "Wisata Padang: Pantai Air Manis & Kota Tua — BusSumut",
+  "desc": "Panduan wisata Kota Padang dengan bus dari Medan Rp190–395 ribu: Pantai Air Manis dan legenda Malin Kundang, Kota Tua Batang Arau, Jembatan Siti Nurbaya, dan akhir koridor Lintas Barat."
+ },
+ {
+  "slug": "wisata-palembang",
+  "title": "Wisata Palembang: Ampera & Sungai Musi — BusSumut",
+  "desc": "Panduan wisata Palembang dengan bus langsung Medan–Palembang RAPI ±Rp410–550 ribu: Jembatan Ampera di atas Sungai Musi, kota tertua di Indonesia, dan pempek."
+ },
+ {
+  "slug": "wisata-siak",
+  "title": "Wisata Istana Siak Sri Indrapura, Riau — BusSumut",
+  "desc": "Panduan ke Istana Siak (Istana Asserayah Hasyimiah, 1889–1893) dari koridor bus Medan–Pekanbaru Rp170–350 ribu: Istana Matahari Timur Kesultanan Siak di tepi Sungai Siak."
+ },
+ {
+  "slug": "wisata-way-kambas",
+  "title": "Wisata Way Kambas & Pantai Lampung — BusSumut",
+  "desc": "Panduan ke Taman Nasional Way Kambas, Lampung Timur: Pusat Konservasi Gajah (sekolah gajah pertama di Indonesia, 1985), rumah sakit gajah, dan pantai Mutun/Klara di Teluk Lampung."
+ },
+ {
+  "slug": "wisata",
+  "title": "Wisata Sumatera yang Terjangkau Bus: 13 Destinasi — BusSumut",
+  "desc": "Destinasi wisata se-Sumatera yang bisa dicapai dengan bus: Danau Toba, Berastagi, Bukit Lawang, Banda Aceh, Bukittinggi, Harau, Maninjau, Padang, Siak, Muaro Jambi, Palembang, Way Kambas, Bengkulu."
+ }
+]

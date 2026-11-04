@@ -1,0 +1,50 @@
+<section class="block alt">
+  <div class="container">
+    <div class="widget">
+      <span class="eyebrow">Perkakas</span>
+      <h2>Cek kisaran tarif antarkota</h2>
+      <p>Pilih titik naik dan kota tujuan untuk melihat kisaran tarif, durasi, dan operator yang melayani. Angka adalah kisaran dari sumber bertahun — bukan harga jual tiket.</p>
+      <div class="w-grid">
+        <div>
+          <label for="dari">Berangkat dari</label>
+          <select id="dari">
+            <option value="medan">Medan (semua titik naik)</option>
+            <option value="amplas">Terminal Amplas</option>
+            <option value="smraja">Pool Jl. SM Raja</option>
+            <option value="pinangbaris">Terminal Pinang Baris</option>
+            <option value="jamin-ginting">Simpang Pos, Jl. Jamin Ginting</option>
+            <option value="kualanamu">Bandara Kualanamu</option>
+          </select>
+        </div>
+        <div>
+          <label for="tujuan">Tujuan</label>
+          <select id="tujuan">
+            <option value="siantar">Pematang Siantar</option>
+            <option value="parapat">Parapat (Danau Toba)</option>
+            <option value="berastagi">Berastagi</option>
+            <option value="banda-aceh">Banda Aceh</option>
+            <option value="pekanbaru">Pekanbaru</option>
+            <option value="padang">Padang</option>
+          </select>
+        </div>
+        <button class="btn" id="cek-tarif-btn" type="button">Cek Kisaran</button>
+      </div>
+      <div class="w-result" id="hasil-tarif" aria-live="polite">
+        <h3 id="ht-rute">Medan → Pematang Siantar</h3>
+        <p class="muted" id="ht-dari"></p>
+        <div class="wr-facts">
+          <div><span class="k">Kisaran tarif</span><span class="v" id="ht-kisaran"></span></div>
+          <div><span class="k">Durasi</span><span class="v" id="ht-durasi"></span></div>
+          <div><span class="k">Jarak</span><span class="v" id="ht-jarak"></span></div>
+        </div>
+        <p class="small muted" id="ht-kisaran-label" style="margin-bottom:8px"></p>
+        <p style="margin-bottom:6px"><b>Operator:</b> <span id="ht-operator"></span></p>
+        <p class="small" id="ht-bandara" style="display:none"></p>
+        <p style="margin-top:12px"><a class="btn" id="ht-link" href="rute-medan-siantar">Buka halaman rute lengkapnya →</a></p>
+      </div>
+    </div>
+    <div class="notice">
+      <p><b>Catatan kejujuran tarif:</b> Kisaran Rp60.000–120.000 yang mungkin Anda temui di beberapa tabel situs ini adalah rata-rata umum untuk rute yang tarif persisnya belum terpantau; tarif terverifikasi selalu ditandai tahun sumbernya. Semua tarif dapat berubah — konfirmasi ke loket sebelum berangkat.</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+{
+ "eyebrow": "Sering Ditanyakan",
+ "h2": "Pertanyaan penumpang Medan",
+ "intro": "",
+ "items": [
+  {
+   "q": "Mau ke Siantar, naiknya dari mana?",
+   "a": "<p>Dua pilihan utama: Terminal Amplas (resmi, di ujung selatan kota) atau pool/loket operator di koridor Jl. Sisingamangaraja (SM Raja) yang lebih dekat ke pusat kota. Bus-bus Intra, Sejahtera, Eldivo, dan KUPJ melayani koridor ini nyaris tanpa henti pukul 04.00–23.00. Rinciannya ada di <a href=\"rute-medan-siantar\">halaman rute Medan–Siantar</a>.</p>"
+  },
+  {
+   "q": "Kenapa tarif di situs ini berupa kisaran, bukan harga pasti?",
+   "a": "<p>Karena hanya tarif kelas ekonomi yang diatur pemerintah (AKAP oleh Kemenhub, AKDP oleh Gubernur Sumut). Kelas eksekutif, VIP, dan travel mengikuti mekanisme pasar dan berubah mengikuti musim — Lebaran dan Nataru hampir selalu lebih mahal. Menampilkan satu angka “pasti” justru akan menyesatkan; kisaran bertahun sumber lebih jujur.</p>"
+  },
+  {
+   "q": "Bisa pesan tiket bus Medan lewat aplikasi?",
+   "a": "<p>Sebagian. Operator besar seperti ALS, RAPI, dan Sempati Star menjual kursi lewat situs resmi dan OTA (Traveloka, redBus, 12go). Tetapi banyak rute AKDP dinyatakan oleh OTA sendiri sebagai “dijual offline eksklusif di konter atau di dalam bus” — untuk rute-rute itu, datang ke loket atau menelepon agen tetap cara yang sesungguhnya.</p>"
+  },
+  {
+   "q": "Apa bedanya terminal dan pool?",
+   "a": "<p>Terminal adalah fasilitas resmi negara — di Medan ada dua terminal Tipe A yang dikelola BPTD: Amplas dan Pinang Baris. Pool secara regulasi (PM Perhubungan No. 15 Tahun 2019) hanya tempat menyimpan dan merawat kendaraan; naik-turun penumpang wajibnya di terminal. Praktiknya, pool di SM Raja dan Jamin Ginting tetap menjadi titik naik utama warga karena lebih dekat. Situs ini menampilkan keduanya apa adanya.</p>"
+  }
+ ]
+}

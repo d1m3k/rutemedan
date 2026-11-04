@@ -1,0 +1,158 @@
+[
+ {
+  "href": "rute-medan-siantar",
+  "search": "medan pematang siantar tol sinaksak intra sejahtera paradep eldivo kupj damri akdp",
+  "tag": "AKDP",
+  "tagClass": "tag",
+  "title": "Medan → Pematang Siantar",
+  "desc": "Rute antarkota tersibuk di Sumut. Keberangkatan nyaris berkesinambungan pukul 04.00–23.00, sebagian besar via Tol Sinaksak.",
+  "facts": [
+   {
+    "k": "Jarak",
+    "v": "±126–128 km"
+   },
+   {
+    "k": "Durasi",
+    "v": "1,5–2,5 jam via tol"
+   },
+   {
+    "k": "Kisaran tarif bus",
+    "v": "Rp50–70 ribu"
+   },
+   {
+    "k": "Operator",
+    "v": "8 layanan"
+   }
+  ]
+ },
+ {
+  "href": "rute-medan-parapat",
+  "search": "medan parapat danau toba siantar sejahtera intra rapi paradep nice trans amartha wisata",
+  "tag": "AKDP · Wisata",
+  "tagClass": "tag",
+  "title": "Medan → Parapat",
+  "desc": "Gerbang Danau Toba. Bus AKDP dari Terminal Amplas dan shuttle travel terjadwal; tol sampai Sinaksak, lanjut jalan nasional.",
+  "facts": [
+   {
+    "k": "Jarak",
+    "v": "±176 km"
+   },
+   {
+    "k": "Durasi",
+    "v": "3–4 jam"
+   },
+   {
+    "k": "Kisaran tarif bus",
+    "v": "Rp60–80 ribu"
+   },
+   {
+    "k": "Operator",
+    "v": "10 layanan"
+   }
+  ]
+ },
+ {
+  "href": "rute-medan-berastagi",
+  "search": "medan berastagi karo jamin ginting simpang pos sinabung jaya sutra borneo murni almasar tanah karo",
+  "tag": "Non-Tol",
+  "tagClass": "tag amber",
+  "title": "Medan → Berastagi",
+  "desc": "Ke Tanah Karo tanpa terminal resmi: bus medium berangkat tiap 15–30 menit dari kawasan Simpang Pos, Jl. Jamin Ginting.",
+  "facts": [
+   {
+    "k": "Jarak",
+    "v": "±66–70 km"
+   },
+   {
+    "k": "Durasi",
+    "v": "2–2,5 jam"
+   },
+   {
+    "k": "Tarif bus",
+    "v": "Rp20 ribu (2024)"
+   },
+   {
+    "k": "Operator",
+    "v": "5 operator"
+   }
+  ]
+ },
+ {
+  "href": "rute-medan-banda-aceh",
+  "search": "medan banda aceh bus malam sempati star putra pelangi pmtoh kurnia double decker sleeper akap",
+  "tag": "AKAP · Bus Malam",
+  "tagClass": "tag",
+  "title": "Medan → Banda Aceh",
+  "desc": "Koridor bus malam paling bergengsi di Sumatera: konsentrasi berangkat 19.00–21.00, dari Patas VIP sampai double decker First Class.",
+  "facts": [
+   {
+    "k": "Jarak",
+    "v": "±591–600 km"
+   },
+   {
+    "k": "Durasi",
+    "v": "10–12,5 jam"
+   },
+   {
+    "k": "Kisaran tarif",
+    "v": "Rp200–380 ribu"
+   },
+   {
+    "k": "Operator",
+    "v": "7 operator"
+   }
+  ]
+ },
+ {
+  "href": "rute-medan-pekanbaru",
+  "search": "medan pekanbaru riau lintas timur als rapi medan jaya bintang utara sempati star putra pelangi intra sentosa akap",
+  "tag": "AKAP",
+  "tagClass": "tag",
+  "title": "Medan → Pekanbaru",
+  "desc": "Dua gelombang keberangkatan — pagi dan malam — menyusuri Lintas Timur via Rantau Prapat, Bagan Batu, dan Duri.",
+  "facts": [
+   {
+    "k": "Jarak",
+    "v": "±650 km"
+   },
+   {
+    "k": "Durasi",
+    "v": "11–14 jam"
+   },
+   {
+    "k": "Kisaran tarif",
+    "v": "Rp170–350 ribu"
+   },
+   {
+    "k": "Operator",
+    "v": "7 operator"
+   }
+  ]
+ },
+ {
+  "href": "rute-medan-padang",
+  "search": "medan padang bukittinggi sumatera barat als npm putra pelangi lintas tengah sidempuan kotanopan akap",
+  "tag": "AKAP · Jarak Jauh",
+  "tagClass": "tag",
+  "title": "Medan → Padang",
+  "desc": "Perjalanan darat maraton menembus Tapanuli dan Mandailing: berangkat pagi–siang karena durasinya bisa lebih dari sehari semalam.",
+  "facts": [
+   {
+    "k": "Jarak",
+    "v": "±750 km"
+   },
+   {
+    "k": "Durasi",
+    "v": "20–28 jam"
+   },
+   {
+    "k": "Kisaran tarif",
+    "v": "Rp190–395 ribu"
+   },
+   {
+    "k": "Operator",
+    "v": "4 operator"
+   }
+  ]
+ }
+]
